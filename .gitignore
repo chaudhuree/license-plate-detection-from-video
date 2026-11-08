@@ -1,0 +1,57 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Test / sample media and exported results (not source code)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wmv
+*.flv
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+*.ts
+*.mts
+*.m2ts
+*.ogv
+*.ogg
+*.vob
+*.asf
+*.divx
+*.f4v
+plates.csv
+plates.json
+debug_plates/
+
+# Logs
+*.log
+
+# Claude Code local settings
+.claude/
