@@ -35,7 +35,6 @@ video-license-plate-detection/
 ├── app.py            # Tkinter UI (video preview, table, save CSV/JSON)
 ├── engine.py         # Detector + OCR + multi-frame tracking
 ├── requirements.txt  # Python dependencies
-├── code.py           # Original OpenCV/Tesseract script (kept for reference)
 └── README.md
 ```
 
@@ -243,13 +242,6 @@ ffmpeg -i input.webm -c:v libx264 -crf 20 output.mp4
 | `Activate.ps1 cannot be loaded` | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
 | Model download fails | Check your internet connection and run the app again |
 | Window opens but is black | Wait a few seconds; the first frame needs the models loaded |
-
----
-
-## 📜 Original Script
-
-`code.py` is the original OpenCV + Tesseract prototype (contour-based, one frame at a time,
-prints plates to the console). It is kept for reference; the app above replaces it.
 
 ---
 
